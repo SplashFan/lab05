@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/SplashFan/lab05/badge.svg?branch=master)](https://coveralls.io/github/SplashFan/lab05?branch=master)
 ## Laboratory work V
 
 Данная лабораторная работа посвещена изучению фреймворков для тестирования на примере **GTest**
