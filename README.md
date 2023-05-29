@@ -118,7 +118,7 @@ if(BUILD_TESTS)
   add_subdirectory(third-party/gtest)
   file(GLOB BANKING_TEST_SOURCES tests/*.cpp)
   add_executable(check ${BANKING_TEST_SOURCES})
-  target_link_libraries(check banking gtest_main)
+  target_link_libraries(check banking gtest_main gmock_main)
   add_test(NAME check COMMAND check)
 endif()
 ```
